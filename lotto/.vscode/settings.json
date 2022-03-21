@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar"
+        ],
+        "exclude": [
+            "lib/mysql-database-1.8.16.jar",
+            "lib/mariadb-java-client-3.0.3.jar"
+        ]
+    }
+}
